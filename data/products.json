@@ -1,6 +1,12 @@
 [
-  { "title": "dffsa" },
+  { "title": "Star wars" },
   { "title": "Another" },
-  { "title": "fasdfdas" },
-  { "title": "Second Book" }
+  { "title": "One book" },
+  { "title": "Second Book" },
+  {
+    "title": "livre avec image ",
+    "imageUrl": "https://picsum.photos/200/300",
+    "description": "lorem ipsum",
+    "price": "400"
+  }
 ]
