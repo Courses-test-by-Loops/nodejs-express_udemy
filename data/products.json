@@ -1,12 +1,26 @@
 [
-  { "title": "Star wars" },
-  { "title": "Another" },
-  { "title": "One book" },
-  { "title": "Second Book" },
   {
-    "title": "livre avec image ",
-    "imageUrl": "https://picsum.photos/200/300",
-    "description": "lorem ipsum",
+    "title": "livre un",
+    "imageUrl": "https://picsum.photos/id/642/600/400",
+    "description": "lorem ipsum du livre un",
+    "price": "40"
+  },
+  {
+    "title": "livre avec image",
+    "imageUrl": "https://picsum.photos/id/598/600/400",
+    "description": "lorem ipsum du livre avec image",
+    "price": "10"
+  },
+  {
+    "title": "attention",
+    "imageUrl": "https://picsum.photos/id/237/600/400",
+    "description": "lorem ipsum du livre attention",
+    "price": "20"
+  },
+  {
+    "title": "livre avec image v2",
+    "imageUrl": "https://picsum.photos/id/1025/600/400",
+    "description": "lorem ipsum livre avec image v2",
     "price": "400"
   }
 ]
