@@ -1,0 +1,22 @@
+docker run --name nodejscomplete -e MYSQL_ROOT_PASSWORD=nodecomplete -d mysql:tag
+https://stackoverflow.com/questions/33827342/how-to-connect-mysql-workbench-to-running-mysql-inside-docker
+
+
+docker exec -it nodejscomplete mysql -u root -p
+
+mysql> CREATE DATABASE `node-complete`;
+Query OK, 1 row affected (0.01 sec)
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| node-complete      |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.01 sec)
+mysql> USE node-complete
+Database changed
+mysql> exit
